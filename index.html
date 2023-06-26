@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MainPage</title>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- <style>body{opacity: 0;}</style> -->
+    <link rel="stylesheet" href="css/style.min.css?_v=20230626145234" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!-- <meta name="robots" content="noindex, nofollow"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body id="top">
+    <div class="wrapper">
+      <header class="header js-header lock-padding">
+        <div class="header__row">
+          <nav class="header__menu menu">
+            <button type="button" class="menu__icon icon-menu">
+              <span></span>
+            </button>
+            <div class="menu__body">
+              <ul class="menu__list">
+                <li>
+                  <a href="#content" class="menu__item">
+                    <span> Інформація </span></a
+                  >
+                </li>
+                <li>
+                  <a href="programs.html" class="menu__item"
+                    ><span>Програми</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#gallery" class="menu__item"><span>Галерея</span></a>
+                </li>
+                <li>
+                  <a href="#popup" class="menu__item popup-link"
+                    ><span>Зв'язатися</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="header__logo lock-padding">
+            <a href="#top"
+              ><picture
+                ><source srcset="img/logo.webp" type="image/webp" />
+                <img width="65px" src="img/logo.png" alt=""
+              /></picture>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <main class="page">
+        <section class="arrow">
+          <div class="arrow__row">
+            <div class="arrow__img">
+              <a href="#content" title="ДІЗНАТИСЯ БІЛЬШЕ"
+                ><picture
+                  ><source srcset="img/strelka.webp" type="image/webp" />
+                  <img width="65px" src="img/strelka.png" alt=""
+                /></picture>
+              </a>
+            </div>
+          </div>
+        </section>
+        <div class="main-screen">
+          <section class="title-screen">
+            <div class="title-screen__title">
+              <p>
+                Комп'ютерна <br />
+                3D-графіка
+              </p>
+            </div>
+            <div class="title-screen__row">
+              <nav class="title-screen__menu menu-screen">
+                <div class="menu-screen__body">
+                  <ul class="menu-screen__list">
+                    <li>
+                      <a
+                        href="https://themakskryt.github.io/programs/#cinema4d"
+                        class="menu-screen__item"
+                        ><picture
+                          ><source srcset="img/cinema.webp" type="image/webp" />
+                          <img src="img/cinema.png" alt=""
+                        /></picture>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://themakskryt.github.io/programs/#blender"
+                        class="menu-screen__item"
+                        ><picture
+                          ><source
+                            srcset="img/blender.webp"
+                            type="image/webp" />
+                          <img src="img/blender.png" alt="" /></picture
+                      ></a>
+                    </li>
+                  </ul>
+                  <ul class="menu-screen__list">
+                    <li>
+                      <a
+                        href="https://themakskryt.github.io/programs/#maya"
+                        class="menu-screen__item"
+                        ><picture
+                          ><source srcset="img/maya.webp" type="image/webp" />
+                          <img src="img/maya.png" alt=""
+                        /></picture>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://themakskryt.github.io/programs/#ds"
+                        class="menu-screen__item"
+                        ><picture
+                          ><source srcset="img/3ds.webp" type="image/webp" />
+                          <img src="img/3ds.png" alt="" /></picture
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </section>
+          <div class="main-screen__bg ibg">
+            <picture
+              ><source srcset="img/mainscreen.webp" type="image/webp" />
+              <img src="img/mainscreen.jpg" alt=""
+            /></picture>
+          </div>
+        </div>
+        <section id="success" class="success">
+          <div class="success__body">
+            <div class="success__text">
+              Реєстрація пройшла успішно, але, на жаль, нашого бюджету не
+              вистачило на Backend-розробку
+            </div>
+            <hr />
+          </div>
+        </section>
+        <div id="popup" class="popup">
+          <div class="popup__body">
+            <div class="popup__content">
+              <a href="" class="popup__close close-popup"> X </a>
+              <form action="#" id="myForm" class="popup__form">
+                <label>
+                  <div class="label__text">E-mail:</div>
+                  <input
+                    type="email"
+                    class="_req _email"
+                    name="email"
+                    id="inputEmail"
+                  />
+                </label>
+                <label>
+                  <div class="label__text">Ваше Ім'я:</div>
+                  <input type="text" class="_req" name="name" id="inputName" />
+                </label>
+                <label>
+                  <div class="label__text">Ваше питання:</div>
+                  <textarea name="message"></textarea>
+                </label>
+                <button type="submit">відправити</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <section class="start lock-padding" id="content">
+            <div class="container">
+              <div class="start__block block">
+                <div class="block__logo">
+                  <picture
+                    ><source srcset="img/icon_info.webp" type="image/webp" />
+                    <img src="img/icon_info.png" width="55px" alt=""
+                  /></picture>
+                </div>
+                <h1 class="block__title">3D Graphics - our future</h1>
+                <div class="block__text">
+                  Кожен з нас під час роботи за комп’ютером взаємодіє з
+                  тривимірною графікою. Зазвичай, ми просто не звертаємо на це
+                  уваги: ідеальні елементи оформлення, анімовані зображення та
+                  3D-моделі – це вже звичні складові реклами та
+                  Інтернет-додатків.
+                </div>
+              </div>
+            </div>
+            <div class="start__block block">
+              <div class="block__text_s">
+                <b>3D графіка</b> (тривимірна графіка; 3 Dimensions) — один з
+                розділів комп’ютерної графіки, який призначений для зображення
+                об’ємних об’єктів. Дана графіка застосовується в кінематографі,
+                архітектурній справі, комп’ютерних іграх, а також в поліграфії,
+                науці та промисловості. <br />
+                Основна відмінність від 2D графіки — представлення зображення в
+                трьох площинах, яке в подальшому перераховується в 2D для виводу
+                на екран або папір. 3D графіка являється більш реалістичним
+                відображенням інформації, оскільки в повсякденному житті людина
+                бачить світ саме в трьох вимірах. З допомогою цього виду графіки
+                дуже легко маніпулювати такими ефектами як освітлення і тінь.
+                <br />
+                Проте, 3D і 2D графіка тісно взаємоповязані між собою, оскільки
+                тривимірна графіка використовує алгоритми 2D векторної і 2D
+                растрової графіки, в свою чергу 2D графіка використовує 3D
+                побудову для отримання реалістичних зображень. <br />
+                Далі наведено приклад 3D зображення.
+
+                <div class="block__3d">
+                  <picture
+                    ><source srcset="img/3d.webp" type="image/webp" />
+                    <img src="img/3d.png" width="450px" alt=""
+                  /></picture>
+                </div>
+                <div class="block__image">
+                  <picture
+                    ><source srcset="img/example.webp" type="image/webp" />
+                    <img src="img/example.png" width="600px" alt=""
+                  /></picture>
+                </div>
+              </div>
+              <div class="block__text_s">
+                3D графіку широко застосовують в кінематографі і комп'ютерних
+                іграх. Але в зв'язку з тим, що комп'ютерні та 3Д технології
+                набирають обертів, тривимірну графіку також використовують в
+                науці, промисловості, медицині і архітектури. Застосування
+                тривимірної графіки в промисловості більш ефективно, якщо її
+                використовувати разом з технологією швидкого прототипування -
+                створенням дослідних зразків і моделей. <br />
+                <div class="block__first like">
+                  <b class="like__likes"> Переваги: </b>
+                  <picture
+                    ><source srcset="img/like.webp" type="image/webp" />
+                    <img src="img/like.png" alt=""
+                  /></picture>
+                  <br />
+                </div>
+                <ul class="block__first-list">
+                  <li>
+                    Тривимірне моделювання дає дуже точну модель, максимально
+                    наближену до реальності.
+                  </li>
+                  <li>
+                    Сучасні програми допомагають досягти високої деталізації.
+                  </li>
+                  <li>
+                    Висловити тривимірний об'єкт у двомірної площини не просто,
+                    тоді як 3D візуалізації дає можливість ретельно опрацювати і
+                    що саме головне, проглянути всі деталі. Це більш природний
+                    спосіб візуалізації.
+                  </li>
+                </ul>
+                <div class="block__first like">
+                  <b class="like__dislike"
+                    >Недоліки:
+                    <picture
+                      ><source srcset="img/dislike.webp" type="image/webp" />
+                      <img src="img/dislike.png" alt=""
+                    /></picture>
+                  </b>
+                </div>
+                <ul class="block__second-list">
+                  <li>підвищені вимоги до апаратної частини комп’ютера.</li>
+                  <li>необхідність великої підготовчої роботи.</li>
+                  <li>
+                    меньша, ніж при використанні двовимірної графіки, свобода у
+                    формуванні зображення.
+                  </li>
+                  <li>
+                    необхідність контроля над взаємним розміщенням об’єктів у
+                    складі сцен, особливо при виконанні анімації.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section class="slider">
+            <div class="slider__block block lock-padding">
+              <div class="block__logo">
+                <picture
+                  ><source srcset="img/slider_icon.webp" type="image/webp" />
+                  <img src="img/slider_icon.png" width="75px" alt=""
+                /></picture>
+              </div>
+              <h2 class="block__title block__title_slider">
+                Відомі цитати знаменитих дизайнерів.
+              </h2>
+            </div>
+
+            <div class="swiper__slider swiper">
+              <div class="swiper__wrapper swiper-wrapper">
+                <div class="swiper__slide swiper-slide">
+                  <div class="slider__body">
+                    <div class="container__swiper">
+                      <div class="slider__item">
+                        <div class="slider__logo">
+                          <picture
+                            ><source
+                              srcset="img/slide_1.webp"
+                              type="image/webp" />
+                            <img src="img/slide_1.webp" width="275px" alt=""
+                          /></picture>
+                        </div>
+                        <div class="slider__text slider__text_m">
+                          <blockquote>
+                            <p>
+                              «Є три відповіді на результат дизайну – так, ні і
+                              НІЧОГО СОБІ! «Нічого собі» – це те, чого треба
+                              прагнути»
+                            </p>
+                            <span>— Милтон Глэзер (Milton Glaser)</span>
+                          </blockquote>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper__slide swiper-slide">
+                  <div class="slider__body">
+                    <div class="container__swiper">
+                      <div class="slider__item">
+                        <div class="slider__logo">
+                          <picture
+                            ><source
+                              srcset="img/slide_2.webp"
+                              type="image/webp" />
+                            <img src="img/slide_2.jpg" width="275px" alt=""
+                          /></picture>
+                        </div>
+                        <div class="slider__text slider__text_a">
+                          <blockquote>
+                            <p>
+                              «Дизайнер знає, що досягнув досконалості не тоді,
+                              коли нічого не можна додати, а тоді, коли нема
+                              чого забрати.»
+                            </p>
+                            <span
+                              >— Антуан де Сент-Экзюпери (Antoine de
+                              Saint-Exupéry)</span
+                            >
+                          </blockquote>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper__slide swiper-slide">
+                  <div class="slider__body">
+                    <div class="container__swiper">
+                      <div class="slider__item">
+                        <div class="slider__logo">
+                          <picture
+                            ><source
+                              srcset="img/slide_3.webp"
+                              type="image/webp" />
+                            <img src="img/slide_3.jpg" width="275px" alt=""
+                          /></picture>
+                        </div>
+                        <div class="slider__text slider__text_e">
+                          <blockquote>
+                            <p>
+                              «Справді важко розробляти вироби за групами
+                              інтересів. <br />
+                              Багато разів люди не знають, чого хочуть, поки ви
+                              їм цього не покажете.»
+                            </p>
+                            <span>- Стів Джобс (Steven Paul Jobs)</span>
+                          </blockquote>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-pagination"></div>
+
+              <button type="button" class="swiper-button-prev"></button>
+              <button type="button" class="swiper-button-next"></button>
+            </div>
+          </section>
+          <section id="gallery" class="gallery">
+            <div class="gallery__body">
+              <div class="gallery__column gallery__column_b">
+                <div class="gallery__block block-gallery">
+                  <div class="block-gallery__row">
+                    <div class="block-gallery__column">
+                      <div
+                        href="img/cinema.png"
+                        target="__blink"
+                        class="block-gallery__item block-gallery__item_l item"
+                      >
+                        <span class="item__image ibg">
+                          <picture
+                            ><source
+                              srcset="img/cinema.webp"
+                              type="image/webp" />
+                            <img src="img/cinema.png" alt=""
+                          /></picture>
+                        </span>
+                        <span class="item__logo">
+                          <picture
+                            ><source
+                              srcset="img/down_arr.webp"
+                              type="image/webp" />
+                            <img src="img/down_arr.png" width="100px" alt=""
+                          /></picture>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-gallery__column">
+                      <div
+                        href=""
+                        class="block-gallery__item block-gallery__item_l item"
+                      >
+                        <span class="item__image ibg">
+                          <picture
+                            ><source
+                              srcset="img/blender.webp"
+                              type="image/webp" />
+                            <img src="img/blender.png" alt=""
+                          /></picture>
+                        </span>
+                        <span class="item__logo">
+                          <picture
+                            ><source
+                              srcset="img/right_arr.webp"
+                              type="image/webp" />
+                            <img src="img/right_arr.png" width="100px" alt=""
+                          /></picture>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <a
+                    href="img/cinema_gallery.png"
+                    target="__blink"
+                    class="block-gallery__item item"
+                  >
+                    <span class="item__image ibg">
+                      <picture
+                        ><source
+                          srcset="img/cinema_gallery.webp"
+                          type="image/webp" />
+                        <img src="img/cinema_gallery.png" alt=""
+                      /></picture>
+                    </span>
+                    <span class="item__logo">
+                      <picture
+                        ><source srcset="img/zoom.webp" type="image/webp" />
+                        <img src="img/zoom.png" alt=""
+                      /></picture>
+                      <span>Zoom it</span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div class="gallery__column">
+                <a
+                  href="img/blender_gallery.png"
+                  target="__blink"
+                  class="block-gallery__item block-gallery__item_b item"
+                >
+                  <span class="item__image ibg">
+                    <picture
+                      ><source
+                        srcset="img/blender_gallery.webp"
+                        type="image/webp" />
+                      <img src="img/blender_gallery.png" alt=""
+                    /></picture>
+                  </span>
+                  <span class="item__logo">
+                    <picture
+                      ><source srcset="img/zoom.webp" type="image/webp" />
+                      <img src="img/zoom.png" alt=""
+                    /></picture>
+                    <span>Zoom it</span>
+                  </span>
+                </a>
+              </div>
+              <div class="gallery__column">
+                <a
+                  href="img/3ds_gallery.jpg"
+                  target="__blink"
+                  class="block-gallery__item block-gallery__item_b item"
+                >
+                  <span class="item__image ibg">
+                    <picture
+                      ><source
+                        srcset="img/3ds_gallery.webp"
+                        type="image/webp" />
+                      <img src="img/3ds_gallery.jpg" alt=""
+                    /></picture>
+                  </span>
+                  <span class="item__logo">
+                    <picture
+                      ><source srcset="img/zoom.webp" type="image/webp" />
+                      <img src="img/zoom.png" alt=""
+                    /></picture>
+                    <span>Zoom it</span>
+                  </span>
+                </a>
+              </div>
+              <div class="gallery__column gallery__column_b">
+                <div class="gallery__block block-gallery">
+                  <a
+                    href="img/maya_gallery.png"
+                    target="__blink"
+                    class="block-gallery__item item"
+                  >
+                    <span class="item__image ibg">
+                      <picture
+                        ><source
+                          srcset="img/maya_gallery.webp"
+                          type="image/webp" />
+                        <img src="img/maya_gallery.png" alt=""
+                      /></picture>
+                    </span>
+                    <span class="item__logo">
+                      <picture
+                        ><source srcset="img/zoom.webp" type="image/webp" />
+                        <img src="img/zoom.png" alt=""
+                      /></picture>
+                      <span>Zoom it</span>
+                    </span>
+                  </a>
+                  <div class="block-gallery__row">
+                    <div class="block-gallery__column">
+                      <div
+                        href=""
+                        class="block-gallery__item block-gallery__item_l item"
+                      >
+                        <span class="item__image ibg">
+                          <picture
+                            ><source srcset="img/3ds.webp" type="image/webp" />
+                            <img src="img/3ds.png" alt=""
+                          /></picture>
+                        </span>
+                        <span class="item__logo">
+                          <picture
+                            ><source
+                              srcset="img/left_arr.webp"
+                              type="image/webp" />
+                            <img src="img/left_arr.png" width="100px" alt=""
+                          /></picture>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-gallery__column">
+                      <div
+                        href=""
+                        class="block-gallery__item block-gallery__item_l item"
+                      >
+                        <span class="item__image ibg">
+                          <picture
+                            ><source srcset="img/maya.webp" type="image/webp" />
+                            <img src="img/maya.png" alt=""
+                          /></picture>
+                        </span>
+                        <span class="item__logo">
+                          <picture
+                            ><source
+                              srcset="img/up_arr.webp"
+                              type="image/webp" />
+                            <img src="img/up_arr.png" width="100px" alt=""
+                          /></picture>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery__foooter lock-padding">
+              <div class="container">
+                <a
+                  href="https://videosmile.ru/post/897-luchshaya-programma-dlya-3d-modelirovaniya"
+                  target="__blink"
+                  class="wave-btn"
+                >
+                  <span class="wave-btn__text">Краща програма?</span>
+                  <span class="wave-btn__waves"></span>
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+        <footer class="footer lock-padding">
+          <!-- <div class="footer__container"> -->
+          <div class="container">
+            <div class="footer__row">
+              <div class="footer__column">
+                <div class="footer__copy">
+                  <p>Hryzodub Maksym</p>
+                  <span
+                    >1RPZ19 -
+                    <a href="mailto:themakskryt6@gmail.com">
+                      themakskryt6@gmail.com
+                    </a>
+                    <br />
+                    ©2022
+                  </span>
+                </div>
+              </div>
+              <div class="footer__column">
+                <div class="footer__images">
+                  <a href="https://sfknau.org.ua/" target="_blink">
+                    <picture
+                      ><source srcset="img/scnau1.webp" type="image/webp" />
+                      <img src="img/scnau1.png" width="85px" alt="" /></picture
+                  ></a>
+                </div>
+              </div>
+              <div class="footer__column">
+                <div class="footer__by">
+                  <span class="by">Handcrafted by</span>
+                  <a href="#top"
+                    ><picture
+                      ><source srcset="img/tmk_logo.webp" type="image/webp" />
+                      <img src="img/tmk_logo.png" width="70px" alt=""
+                    /></picture>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="footer__extra">
+              Розробив студент IV курсу ВСП «Слов’янський фаховий коледжу НАУ»,
+              спеціальності 121 «Інженерія ПЗ», <br />
+              гр. 1РПЗ19, Максим Сергійович <br />
+              дисципліна «Практика з Web-програмування»
+            </div>
+          </div>
+
+          <!-- </div> -->
+        </footer>
+      </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js?_v=20230626145234"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js?_v=20230626145234"></script>
+    <script src="js/app.min.js?_v=20230626145234"></script>
+  </body>
+</html>
